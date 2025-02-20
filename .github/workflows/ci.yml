@@ -28,6 +28,7 @@ jobs:
       - name: Build & Deploy
         working-directory: AgentOS
         run: |
-          pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-material
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install git-committers
           mkdocs gh-deploy --force
