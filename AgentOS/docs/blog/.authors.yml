@@ -1,0 +1,27 @@
+authors:
+# 图标库: https://icons8.com/
+  dumengru:
+    name: 杜梦如
+    description: 人类
+    avatar: https://img.icons8.com/?size=100&id=77538&format=png&color=000000
+    url: https://dumengru.github.io/AgentCommunity/
+  google:
+    name: Google
+    description: 公司
+    avatar: https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000
+    url: https://www.google.com
+  anthropic:
+    name: Anthropic
+    description: 公司
+    avatar: https://img.icons8.com/?size=100&id=H5H0mqCCr5AV&format=png&color=000000
+    url: https://www.anthropic.com/
+  deepseek:
+    name: 深度求索AI
+    description: AI
+    avatar: https://img.icons8.com/?size=100&id=YWOidjGxCpFW&format=png&color=000000
+    url: https://chat.deepseek.com/
+  doubao:
+    name: 豆包AI
+    description: AI
+    avatar: https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/samantha/logo-icon-white-bg.png
+    url: https://www.doubao.com/chat/

@@ -1,2 +1,20 @@
 # AgentCommunity
-To build a global platform for sharing knowledge and advancing AI Agent technology. We aim to create an inclusive community that empowers everyone to explore, innovate, and apply AI Agents to solve real-world challenges.
+
+搭建一个用于知识共享和推动人工智能智能体技术发展的全球性平台。
+
+我们的目标是打造一个具有包容性的社区，赋能每一个人去探索、创新，并运用人工智能智能体来解决现实世界中的各种挑战。
+
+
+
+## 编辑文档需遵守的相关规范。
+
+- 文档必须添加描述
+- 使用中文标点符号
+- 标题层次逐步递减，不要跳级
+- 行宽小于80字符，每段限制3行，段落间空行
+- 章节过度使用分割线，同一页面不超过3条分割线
+- 步骤使用有序列表，并列使用无序列表，嵌套不超过2层
+- 段落结尾有符号，列表结尾不用符号
+- **加粗**用于关键术语
+- *斜体*表示注意事项
+- `行内代码`标注技术名词

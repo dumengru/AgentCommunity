@@ -1,0 +1,88 @@
+site_name: 智能体社区
+site_url: https://dumengru.github.io/AgentCommunity/
+
+
+
+# 导航
+nav:
+  - 首页:
+    - index.md
+  - 文章:
+    - blog/index.md
+  - AutoGPT:
+    - AutoGPT/index.md
+    - 开始使用: AutoGPT/start.md
+
+  - LangChain:
+    - LangChain/index.md
+
+# Git仓库
+repo_name: AgentCommunity
+repo_url: https://github.com/dumengru/AgentCommunity
+edit_uri: edit/main/AgentOS/docs/
+
+theme:
+  name: material
+  palette:
+    # 白/黑模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  alternate:
+    - name: 简体中文
+      link: /zh/ 
+      lang: zh
+    - name: English
+      link: /en/ 
+      lang: en
+  features:
+    - content.action.edit
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
+    - navigation.expand
+    - toc.follow
+    - navigation.top
+    - header.autohide
+    - navigation.footer
+
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - blog
+  - social:
+      enabled: !ENV [CI, false]
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: dumengru/AgentCommunity
+      branch: main
+  - git-authors
+
+extra:
+  social:
+    - icon: simple/wechat
+      link: https://fosstodon.org/@squidfunk
+      name: 微信
+    - icon: simple/qq
+      link: https://fosstodon.org/@squidfunk
+      name: QQ
+    - icon: simple/tiktok
+      link: https://fosstodon.org/@squidfunk
+      name: 抖音
+
+copyright: 版权通知-Copyright &copy; 2016 - 2020 Martin Donath
