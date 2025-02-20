@@ -24,9 +24,9 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      # 修改点：将相关步骤合并，并使用working-directory保持目录状态
-      - name: Build and deploy
-        working-directory: ./AgentOS  # 关键修改
+
+      - name: Build & Deploy
+        working-directory: AgentOS
         run: |
           pip install mkdocs-material
-          mkdocs gh-deploy --force --config-file mkdocs.yml --remote-branch gh-pages
+          mkdocs gh-deploy --force --remote-branch gh-pages
