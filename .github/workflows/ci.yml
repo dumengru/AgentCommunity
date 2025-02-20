@@ -27,4 +27,4 @@ jobs:
       - name: Change directory to AgentOS
         run: cd AgentOS
       - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force --config-file mkdocs.yml --remote-branch gh-pages
+      - run: mkdocs gh-deploy --force
